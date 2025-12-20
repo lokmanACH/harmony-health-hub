@@ -1,13 +1,31 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import React from 'react';
+import { Helmet } from 'react-helmet-async';
+import { useLanguage } from '@/contexts/LanguageContext';
+import Layout from '@/components/layout/Layout';
+import HeroSection from '@/components/home/HeroSection';
+import ServicesSection from '@/components/home/ServicesSection';
+import QuickContactSection from '@/components/home/QuickContactSection';
 
-const Index = () => {
+const Index: React.FC = () => {
+  const { language } = useLanguage();
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <Layout>
+      <Helmet>
+        <title>Clinique Santé Plus | {language === 'fr' ? 'Votre santé, notre priorité' : 'صحتكم أولويتنا'}</title>
+        <meta 
+          name="description" 
+          content={language === 'fr' 
+            ? 'Clinique Santé Plus - Des soins médicaux de qualité dans un environnement moderne. Consultations, pédiatrie, cardiologie et dermatologie.'
+            : 'عيادة الصحة بلس - رعاية طبية عالية الجودة في بيئة حديثة. استشارات، طب الأطفال، أمراض القلب والجلدية.'
+          } 
+        />
+      </Helmet>
+      
+      <HeroSection />
+      <ServicesSection />
+      <QuickContactSection />
+    </Layout>
   );
 };
 
