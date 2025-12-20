@@ -1,0 +1,148 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "doctor": "Notre Médecin",
+    "hours": "Horaires",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Clinique Santé Plus",
+    "subtitle": "Votre santé, notre priorité",
+    "description": "Des soins médicaux de qualité dans un environnement moderne et accueillant. Notre équipe dévouée vous accompagne à chaque étape.",
+    "cta": "Prendre rendez-vous",
+    "learnMore": "En savoir plus"
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Des soins complets pour toute la famille",
+    "items": {
+      "general": {
+        "title": "Médecine Générale",
+        "description": "Consultations et suivis médicaux pour tous les âges"
+      },
+      "pediatric": {
+        "title": "Pédiatrie",
+        "description": "Soins spécialisés pour les enfants et nourrissons"
+      },
+      "cardio": {
+        "title": "Cardiologie",
+        "description": "Examens et suivi des maladies cardiovasculaires"
+      },
+      "derma": {
+        "title": "Dermatologie",
+        "description": "Traitement des affections de la peau"
+      }
+    }
+  },
+  "quickContact": {
+    "title": "Besoin d'un rendez-vous ?",
+    "description": "Notre équipe est disponible pour vous accueillir du lundi au vendredi.",
+    "phone": "Appelez-nous",
+    "email": "Écrivez-nous"
+  },
+  "about": {
+    "title": "À Propos de Nous",
+    "subtitle": "Une clinique de confiance depuis plus de 20 ans",
+    "description": "La Clinique Santé Plus est un établissement médical moderne dédié à fournir des soins de santé exceptionnels. Fondée en 2003, notre clinique s'est développée pour devenir un pilier de la communauté médicale locale.",
+    "mission": {
+      "title": "Notre Mission",
+      "description": "Offrir des soins médicaux accessibles, personnalisés et de haute qualité à chaque patient, dans un environnement chaleureux et professionnel."
+    },
+    "values": {
+      "title": "Nos Valeurs",
+      "compassion": {
+        "title": "Compassion",
+        "description": "Nous traitons chaque patient avec empathie et respect"
+      },
+      "excellence": {
+        "title": "Excellence",
+        "description": "Nous visons l'excellence dans tous nos services médicaux"
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Nous adoptons les dernières avancées médicales"
+      },
+      "integrity": {
+        "title": "Intégrité",
+        "description": "Nous agissons avec honnêteté et transparence"
+      }
+    }
+  },
+  "doctor": {
+    "title": "Notre Médecin",
+    "subtitle": "Un expert dévoué à votre santé",
+    "name": "Dr. Marie Dubois",
+    "specialty": "Médecin Généraliste",
+    "experience": "15 ans d'expérience",
+    "bio": "Le Dr. Marie Dubois est une médecin généraliste passionnée avec plus de 15 ans d'expérience. Diplômée de la Faculté de Médecine de Paris, elle a consacré sa carrière à offrir des soins personnalisés et attentionnés à ses patients.",
+    "certifications": {
+      "title": "Certifications & Formation",
+      "items": [
+        "Doctorat en Médecine - Université Paris-Descartes (2009)",
+        "Diplôme d'Études Spécialisées en Médecine Générale",
+        "Certification en Médecine d'Urgence",
+        "Formation Continue en Pédiatrie",
+        "Membre de l'Ordre des Médecins"
+      ]
+    },
+    "expertise": {
+      "title": "Domaines d'Expertise",
+      "items": [
+        "Médecine préventive",
+        "Suivi des maladies chroniques",
+        "Pédiatrie générale",
+        "Gériatrie",
+        "Médecine du voyage"
+      ]
+    }
+  },
+  "hours": {
+    "title": "Horaires d'Ouverture",
+    "subtitle": "Nous sommes là pour vous",
+    "days": {
+      "monday": "Lundi",
+      "tuesday": "Mardi",
+      "wednesday": "Mercredi",
+      "thursday": "Jeudi",
+      "friday": "Vendredi",
+      "saturday": "Samedi",
+      "sunday": "Dimanche"
+    },
+    "morning": "Matin",
+    "afternoon": "Après-midi",
+    "closed": "Fermé",
+    "note": "* Sur rendez-vous uniquement. Urgences acceptées pendant les heures d'ouverture."
+  },
+  "contact": {
+    "title": "Contactez-Nous",
+    "subtitle": "Nous sommes à votre écoute",
+    "info": {
+      "address": "Adresse",
+      "addressValue": "123 Avenue de la Santé, 75014 Paris, France",
+      "phone": "Téléphone",
+      "phoneValue": "+33 1 23 45 67 89",
+      "email": "Email",
+      "emailValue": "contact@cliniquesanteplus.fr"
+    },
+    "form": {
+      "title": "Envoyez-nous un message",
+      "name": "Votre nom",
+      "email": "Votre email",
+      "subject": "Sujet",
+      "message": "Votre message",
+      "submit": "Envoyer le message",
+      "success": "Message envoyé avec succès !"
+    },
+    "map": {
+      "title": "Notre Emplacement"
+    }
+  },
+  "footer": {
+    "description": "Clinique Santé Plus - Des soins médicaux de qualité pour vous et votre famille.",
+    "quickLinks": "Liens Rapides",
+    "contactInfo": "Informations de Contact",
+    "hours": "Horaires",
+    "copyright": "© 2024 Clinique Santé Plus. Tous droits réservés."
+  }
+}
